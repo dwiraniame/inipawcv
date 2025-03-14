@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Contact Form</h3>
+        <form action="../PAW/index.html" method="GET">
+            <div class="input-box">
+                <label>Nama</label>
+                <input type="text" name="nama">
+            </div>
+            <div class="input-box">
+                <label>Tanggal</label>
+                <input type="date" name="tanggal">
+            </div>
+            <div class="input-box">
+                <label>No. HP</label>
+                <input type="text" name="no_hp">
+            </div>
+            <div class="input-box">
+                <label>Jenis Kelamin</label>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+            </div>
+            <div class="input-box">
+                <label>Pendidikan</label>
+                <select name="pendidikan">
+                    <option value="SD">SD</option>
+                    <option value="SMP">SMP</option>
+                    <option value="SMA">SMA</option>
+                    <option value="D3">D3</option>
+                    <option value="S1">S1</option>
+                    <option value="S2">S2</option>
+                    <option value="S3">S3</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="input-box">
+                <label>Keperluan</label>
+                <input type="text" name="keperluan">
+            </div>
+            <div class="input-box">
+                <input type="submit" value="submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
